@@ -20,8 +20,10 @@ stemp.forEach(element => Name.push(element.innerText))
 stemp = document.querySelectorAll(".test-id-attendee-headline")
 stemp.forEach(element => Headline.push(element.innerText))
 
+/*
 Name.forEach(element => console.log(element))
-
-
 Headline.forEach(element => console.log(element))
+*/
 
+copy(Name)
+copy(Headline)
